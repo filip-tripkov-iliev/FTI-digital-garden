@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "filip-tripkov-iliev.github.io/FTI-digital-garden",
-    ignorePatterns: ["private", "templates", ".obsidian", "**/*", "!content/published/**"],
+    ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
