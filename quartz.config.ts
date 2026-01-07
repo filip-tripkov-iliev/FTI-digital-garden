@@ -28,31 +28,29 @@ const config: QuartzConfig = {
         code: "IBM Plex Mono",
       },
       colors: {
-        lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
-        },
-        darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
-        },
-      },
-    },
+  lightMode: {
+    light: "#f0f9ff",        // Светло сина позадина
+    lightgray: "#e0f2fe",    // Сина sidebar
+    gray: "#94a3b8",         // Сиво за линии
+    darkgray: "#334155",     // Темно сиво за текст
+    dark: "#1e293b",         // Црно за наслови
+    secondary: "#ef4444",    // Црвени линкови
+    tertiary: "#10b981",     // Зелени акценти
+    highlight: "rgba(16, 185, 129, 0.15)",
+    textHighlight: "#fef08a",
   },
+  darkMode: {
+    light: "#0f172a",        // Темна позадина
+    lightgray: "#1e293b",    // Темна sidebar
+    gray: "#475569",         // Сиво
+    darkgray: "#cbd5e1",     // Светло сиво за текст
+    dark: "#f1f5f9",         // Бело за наслови
+    secondary: "#22d3ee",    // Сино за линкови
+    tertiary: "#34d399",     // Зелено
+    highlight: "rgba(52, 211, 153, 0.15)",
+    textHighlight: "#fbbf24",
+  },
+},
   plugins: {
     transformers: [
       Plugin.FrontMatter(),
