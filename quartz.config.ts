@@ -49,9 +49,11 @@ const config: QuartzConfig = {
     tertiary: "#34d399",     // Зелено
     highlight: "rgba(52, 211, 153, 0.15)",
     textHighlight: "#fbbf24",
+    },
+   },
   },
-},
-  plugins: {
+ },
+ plugins: {
     transformers: [
       Plugin.FrontMatter(),
       Plugin.CreatedModifiedDate({
@@ -90,6 +92,6 @@ const config: QuartzConfig = {
       Plugin.CustomOgImages(),
     ],
   },
-}
+},
 
 export default config
