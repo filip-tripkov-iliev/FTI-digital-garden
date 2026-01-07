@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "filip-tripkov-iliev.github.io/FTI-digital-garden",
     ignorePatterns: ["private", "templates", ".obsidian", "**/*", "!content/published/**"],
     defaultDateType: "modified",
     theme: {
